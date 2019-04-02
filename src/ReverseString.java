@@ -26,7 +26,8 @@ public class ReverseString {
 	}
 
 	/**
-	 * @return
+	 * @param display
+	 * @return myString
 	 */
 	private static String getString(String display) {
 		Scanner myScanner = new Scanner(System.in);
@@ -39,11 +40,18 @@ public class ReverseString {
 
 	/**
 	 * @param myString
-	 * @return
+	 * @return myStringReversed
 	 */
 	private static String reverseString(String myString) {
-		// TODO Auto-generated method stub
-		return null;
+		String myStringReversed = null;
+		int x = 0;
+		int myStringLength = myString.length();
+		
+		for (int i = myStringLength; i > 0 ; i--) {
+			myStringReversed += myString.charAt(i-1);
+			x++;
+		}
+		return myStringReversed;
 	}
 
 	/**
