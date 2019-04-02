@@ -17,8 +17,35 @@ public class ReverseString {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("HelloWorld!");
+		String myString = getString();
+		String myStringReversed = reverseString(myString);
+		putString(myStringReversed);
 
+	}
+
+	/**
+	 * @return
+	 */
+	private static String getString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/**
+	 * @param myString
+	 * @return
+	 */
+	private static String reverseString(String myString) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/**
+	 * @param myStringReversed
+	 */
+	private static void putString(String myStringReversed) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
