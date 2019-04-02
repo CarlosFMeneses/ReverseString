@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * ReverseString//ReverseString.java
  * @author carlosfmeneses
@@ -17,7 +19,7 @@ public class ReverseString {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String myString = getString();
+		String myString = getString("Enter a string: ");
 		String myStringReversed = reverseString(myString);
 		putString(myStringReversed);
 
@@ -26,9 +28,13 @@ public class ReverseString {
 	/**
 	 * @return
 	 */
-	private static String getString() {
-		// TODO Auto-generated method stub
-		return null;
+	private static String getString(String display) {
+		Scanner myScanner = new Scanner(System.in);
+		
+		System.out.println(display);
+		String myString = myScanner.nextLine();
+		
+		return myString;
 	}
 
 	/**
