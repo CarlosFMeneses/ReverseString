@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * ReverseString//ReverseString.java
+ * The Class ReverseString.
  * @author carlosfmeneses
  * Created on 3/28/2019
  * Modified on 4/2/2019
@@ -16,6 +16,8 @@ import java.util.Scanner;
 public class ReverseString {
 
 	/**
+	 * The main method.
+	 * 
 	 * @param args Main program controller
 	 */
 	public static void main(String[] args) {
@@ -26,6 +28,8 @@ public class ReverseString {
 	}
 
 	/**
+	 * Get a string input from user.
+	 * 
 	 * @param display Display message
 	 * @return myString User entered value
 	 */
@@ -40,6 +44,8 @@ public class ReverseString {
 	}
 
 	/**
+	 * Reverses the string.
+	 * 
 	 * @param myString Value to reverse
 	 * @return myStringReversed The reversed value
 	 */
@@ -56,6 +62,8 @@ public class ReverseString {
 	}
 
 	/**
+	 * Echos to console the value of myStringReversed
+	 * 
 	 * @param myStringReversed Value to echo
 	 */
 	private static void putString(String myStringReversed) {
