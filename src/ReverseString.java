@@ -59,7 +59,7 @@ public class ReverseString {
 	 * @param myStringReversed
 	 */
 	private static void putString(String myStringReversed) {
-		System.out.println(myStringReversed);
+		// TODO Auto-generated method stub
 
 	}
 
