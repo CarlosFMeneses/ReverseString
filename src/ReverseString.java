@@ -3,8 +3,8 @@ import java.util.Scanner;
 /**
  * ReverseString//ReverseString.java
  * @author carlosfmeneses
- * Created on 36/28/2019
- * Modified on 36/28/2019
+ * Created on 3/28/2019
+ * Modified on 4/2/2019
  */
 
 /**
@@ -16,8 +16,7 @@ import java.util.Scanner;
 public class ReverseString {
 
 	/**
-	 * @param args
-	 * Main program controller
+	 * @param args Main program controller
 	 */
 	public static void main(String[] args) {
 		String myString = getString("Enter a string: ");
@@ -27,9 +26,8 @@ public class ReverseString {
 	}
 
 	/**
-	 * @param display
-	 * @return myString
-	 * Gets user input
+	 * @param display Display message
+	 * @return myString User entered value
 	 */
 	private static String getString(String display) {
 		Scanner myScanner = new Scanner(System.in);
@@ -42,9 +40,8 @@ public class ReverseString {
 	}
 
 	/**
-	 * @param myString
-	 * @return myStringReversed
-	 * Reverses the value of myString
+	 * @param myString Value to reverse
+	 * @return myStringReversed The reversed value
 	 */
 	private static String reverseString(String myString) {
 		String myStringReversed = "";
@@ -59,8 +56,7 @@ public class ReverseString {
 	}
 
 	/**
-	 * @param myStringReversed
-	 * echos to console the value of myStringReversed
+	 * @param myStringReversed Value to echo
 	 */
 	private static void putString(String myStringReversed) {
 		System.out.println(myStringReversed);
