@@ -17,6 +17,7 @@ public class ReverseString {
 
 	/**
 	 * @param args
+	 * Main program controller
 	 */
 	public static void main(String[] args) {
 		String myString = getString("Enter a string: ");
@@ -28,6 +29,7 @@ public class ReverseString {
 	/**
 	 * @param display
 	 * @return myString
+	 * Gets user input
 	 */
 	private static String getString(String display) {
 		Scanner myScanner = new Scanner(System.in);
@@ -42,6 +44,7 @@ public class ReverseString {
 	/**
 	 * @param myString
 	 * @return myStringReversed
+	 * Reverses the value of myString
 	 */
 	private static String reverseString(String myString) {
 		String myStringReversed = "";
@@ -57,9 +60,10 @@ public class ReverseString {
 
 	/**
 	 * @param myStringReversed
+	 * echos to console the value of myStringReversed
 	 */
 	private static void putString(String myStringReversed) {
-		// TODO Auto-generated method stub
+		System.out.println(myStringReversed);
 
 	}
 
