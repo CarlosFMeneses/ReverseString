@@ -31,10 +31,11 @@ public class ReverseString {
 	 */
 	private static String getString(String display) {
 		Scanner myScanner = new Scanner(System.in);
-		
+
 		System.out.println(display);
 		String myString = myScanner.nextLine();
-		
+		myScanner.close();
+
 		return myString;
 	}
 
@@ -46,10 +47,10 @@ public class ReverseString {
 		String myStringReversed = null;
 		int x = 0;
 		int myStringLength = myString.length();
-		
-		for (int i = myStringLength; i > 0 ; i--) {
-			myStringReversed += myString.charAt(i-1);
-			x++;
+
+		for (int i = myStringLength; i > 0; i--) {
+			myStringReversed += myString.charAt(i - 1);
+			x = x + 1;
 		}
 		return myStringReversed;
 	}
@@ -59,7 +60,7 @@ public class ReverseString {
 	 */
 	private static void putString(String myStringReversed) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
