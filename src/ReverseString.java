@@ -44,7 +44,7 @@ public class ReverseString {
 	 * @return myStringReversed
 	 */
 	private static String reverseString(String myString) {
-		String myStringReversed = null;
+		String myStringReversed = "";
 		int x = 0;
 		int myStringLength = myString.length();
 
